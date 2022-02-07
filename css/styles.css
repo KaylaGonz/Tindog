@@ -49,15 +49,18 @@ line-height: 1.5;
 /* Title Image */
 
 .title-image {
-  width: 60%;
+  width: 300px;
   transform: rotate(25deg);
   margin-left: 15px;
+  position: absolute;
 }
 
 /* Features Section*/
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
