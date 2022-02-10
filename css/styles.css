@@ -1,21 +1,35 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
 }
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containters */
 
 .container-fluid {
-  padding: 3% 15%;
-}
-
-h1 {
-font-family: "Montserrat";
-font-weight: 900;
-font-size: 3.5rem;
-line-height: 1.5;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -46,6 +60,18 @@ line-height: 1.5;
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title Image */
 
 .title-image {
@@ -58,23 +84,16 @@ line-height: 1.5;
 /* Features Section*/
 
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 5%;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-weight: 900;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 .icons {
@@ -89,14 +108,11 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-h2 {
-  font-family: "Montserrat";
-  font-weight: 900;
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -107,13 +123,8 @@ h2 {
   margin: 15px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -126,35 +137,29 @@ h2 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
+
 /* Call To Action Section */
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
   color: #fff;
-  padding: 7% 15%;
-}
-
-.cta-heading {
-  font-style: "Montserrat";
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 /* Footer Section */
 
 #footer {
   background-color: #fff;
-  text-align: center;
-  padding: 7% 15%;
 }
 
 .footer-icon {
